@@ -18,7 +18,7 @@ import abisha.com.com.service.RecordService;
 
 @RestController
 @RequestMapping("/api/records")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins ={ "http://localhost:5173","https://money-management-frontend-8c6s.vercel.app"})
 public class RecordController {
 
 
