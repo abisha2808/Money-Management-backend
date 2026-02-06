@@ -21,8 +21,8 @@ import abisha.com.com.service.UserService;
 
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin(origins = "http://localhost:5173",
-"https://money-management-frontend.vercel.app")
+@CrossOrigin(origins = {"http://localhost:5173",
+"https://money-management-frontend.vercel.app"})
 public class UserController {
 	
 	@Autowired
